@@ -9,7 +9,6 @@ ENV COMMIT_EMAIL="git@example.com"
 ENV WORKING_DIR=""
 ENV SSH_KEY=""
 ENV FILES_TO_COMMIT="."
-ENV SLEEP_INTERVAL="600"
 
 RUN apk update && \
         apk add git && \
