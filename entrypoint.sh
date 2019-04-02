@@ -39,9 +39,6 @@ fi
 git config user.name "${COMMIT_USER}"
 git config user.email "${COMMIT_EMAIL}"
 
-# Sleep for the given interval.
-sleep ${SLEEP_INTERVAL}
-
 # Reset our variable for checking whether or not changes were found.
 CHANGES_FOUND=""
 
